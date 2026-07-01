@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "BrowseSense",
+  "version": "1.0.0",
+  "description": "Offline browser analytics dashboard with privacy-first browsing insights.",
+  "permissions": ["history", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "BrowseSense",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "extension/background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
